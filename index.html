@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>mirtilla</title>
+</head>
+<style type="text/css">
+.pictaButton{
+	padding: 0;
+	border: none;
+	background: none;
+	width: 500px;
+	margin-left: 30%;
+}
+.picta{
+	height:auto; 
+	width:500px;
+}
+
+</style>
+
+<script>
+    function swap()
+{
+    if (document.pic.src=='https://cdn.discordapp.com/attachments/891897759689474138/894643133646790768/Senza_titolo_38_20210927181217.png'){
+
+document.pic.src='https://cdn.discordapp.com/attachments/891897759689474138/894643133906829494/Senza_titolo_47_20210929151613.png';
+} 
+else if (document.pic.src=='https://cdn.discordapp.com/attachments/891897759689474138/894643133906829494/Senza_titolo_47_20210929151613.png'){
+
+document.pic.src='https://cdn.discordapp.com/attachments/891897759689474138/894643134137520209/Senza_titolo_53_20211003215506.png';
+}
+else if (document.pic.src='https://cdn.discordapp.com/attachments/891897759689474138/894643134137520209/Senza_titolo_53_20211003215506.png'){
+	document.pic.src='https://cdn.discordapp.com/attachments/891897759689474138/894643133646790768/Senza_titolo_38_20210927181217.png';
+}
+}
+</script>
+<body>
+	<button onclick="swap()" class="pictaButton"><img name="pic" class="picta" src="https://cdn.discordapp.com/attachments/891897759689474138/894643133646790768/Senza_titolo_38_20210927181217.png"></button>
+</body>
+</html>
